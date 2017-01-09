@@ -1,5 +1,5 @@
 # WebSharper.Community.Split
-WebSharper extension for javascript split control Split.js
+WebSharper extension for javascript split control Split.js (https://github.com/nathancahill/Split.js/tree/master)
 
 # Documentation and samples
 
