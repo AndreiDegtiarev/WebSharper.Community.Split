@@ -31,7 +31,7 @@ module Client =
                     -<[rightBottomDiv]
         Div [ 
              //Attr.Class "content" :?> Element
-             Attr.Style "height:570px" :?> Element
+             Attr.Style "width:100%;height:100%" :?> Element
              leftDiv
              rightDiv
         ]|>! OnAfterRender (fun div ->

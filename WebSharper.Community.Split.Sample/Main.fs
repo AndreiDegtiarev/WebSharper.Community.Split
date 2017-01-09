@@ -47,7 +47,9 @@ module Site =
 
     let HomePage ctx =
         Templating.Main ctx EndPoint.Home "Home" [
-            Div [ClientSide <@ Client.Main() @>]
+            Div []
+                 -<[Attr.Style "width:100%;height:100%"]
+                 -<[ClientSide <@ Client.Main() @>]
         ]
 
     let AboutPage ctx =
