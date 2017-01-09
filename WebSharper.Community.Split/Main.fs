@@ -34,7 +34,7 @@ module Definition =
                 Split
             ]
             Namespace "WebSharper.Community.Split.Resources" [
-                Resource "Extension3" "/Scripts/Split.js/Split.js"
+                Resource "ExtensionSplit" "https://cdnjs.cloudflare.com/ajax/libs/split.js/1.2.0/split.min.js"
                 |> fun r -> r.AssemblyWide()
             ]
         ]
